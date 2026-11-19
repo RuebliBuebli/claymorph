@@ -1,0 +1,19 @@
+.clay-card {
+  --clay-surface-radius: var(--clay-radius-xl);
+}
+
+.clay-card--padding-none {
+  padding: 0;
+}
+
+.clay-card--padding-sm {
+  padding: var(--clay-space-4);
+}
+
+.clay-card--padding-md {
+  padding: var(--clay-space-5);
+}
+
+.clay-card--padding-lg {
+  padding: var(--clay-space-6);
+}

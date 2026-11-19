@@ -1,0 +1,38 @@
+.clay-badge {
+  align-items: center;
+  background: var(--clay-badge-background, var(--clay-color-surface-muted));
+  border-radius: var(--clay-radius-pill);
+  box-shadow:
+    inset 2px 2px 7px var(--clay-color-highlight),
+    inset -2px -2px 7px var(--clay-color-shade);
+  color: var(--clay-badge-ink, var(--clay-color-ink));
+  display: inline-flex;
+  font-size: 0.75rem;
+  font-weight: 750;
+  gap: var(--clay-space-1);
+  letter-spacing: 0.025em;
+  line-height: 1;
+  min-height: 1.75rem;
+  padding: 0.4rem 0.75rem;
+  width: fit-content;
+}
+
+.clay-badge--primary {
+  --clay-badge-background: var(--clay-color-badge-primary);
+  --clay-badge-ink: var(--clay-color-badge-primary-ink);
+}
+
+.clay-badge--success {
+  --clay-badge-background: var(--clay-color-badge-success);
+  --clay-badge-ink: var(--clay-color-badge-success-ink);
+}
+
+.clay-badge--warning {
+  --clay-badge-background: var(--clay-color-badge-warning);
+  --clay-badge-ink: var(--clay-color-badge-warning-ink);
+}
+
+.clay-badge--danger {
+  --clay-badge-background: var(--clay-color-badge-danger);
+  --clay-badge-ink: var(--clay-color-badge-danger-ink);
+}

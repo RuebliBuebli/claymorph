@@ -1,0 +1,45 @@
+.clay-surface,
+.clay-button,
+.clay-input,
+.clay-textarea,
+.clay-badge {
+  box-sizing: border-box;
+  font-family: var(--clay-font-family);
+}
+
+.clay-surface {
+  background: var(--clay-surface-background, var(--clay-color-surface));
+  border: 0;
+  border-radius: var(--clay-surface-radius, var(--clay-radius-lg));
+  box-shadow: var(--clay-surface-shadow, var(--clay-shadow-surface));
+  color: var(--clay-color-ink);
+}
+
+:where(.clay-button, .clay-input, .clay-textarea):focus-visible {
+  outline: 3px solid var(--clay-color-focus);
+  outline-offset: 4px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .clay-button,
+  .clay-input,
+  .clay-textarea {
+    transition: none;
+  }
+
+  .clay-button:hover,
+  .clay-button:active {
+    transform: none;
+  }
+}
+
+@media (forced-colors: active) {
+  .clay-surface,
+  .clay-button,
+  .clay-input,
+  .clay-textarea,
+  .clay-badge {
+    border: 1px solid CanvasText;
+    box-shadow: none;
+  }
+}

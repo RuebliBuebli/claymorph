@@ -1,0 +1,62 @@
+[data-clay-color="coral"] {
+  --clay-color-primary: var(--clay-palette-coral-base);
+  --clay-color-primary-hover: var(--clay-palette-coral-hover);
+  --clay-color-primary-active: var(--clay-palette-coral-active);
+  --clay-color-on-primary: var(--clay-palette-coral-on);
+  --clay-color-badge-primary: var(--clay-palette-coral-soft);
+  --clay-color-badge-primary-ink: var(--clay-palette-coral-soft-ink);
+}
+
+[data-clay-color="orange"] {
+  --clay-color-primary: var(--clay-palette-orange-base);
+  --clay-color-primary-hover: var(--clay-palette-orange-hover);
+  --clay-color-primary-active: var(--clay-palette-orange-active);
+  --clay-color-on-primary: var(--clay-palette-orange-on);
+  --clay-color-badge-primary: var(--clay-palette-orange-soft);
+  --clay-color-badge-primary-ink: var(--clay-palette-orange-soft-ink);
+}
+
+[data-clay-color="yellow"] {
+  --clay-color-primary: var(--clay-palette-yellow-base);
+  --clay-color-primary-hover: var(--clay-palette-yellow-hover);
+  --clay-color-primary-active: var(--clay-palette-yellow-active);
+  --clay-color-on-primary: var(--clay-palette-yellow-on);
+  --clay-color-badge-primary: var(--clay-palette-yellow-soft);
+  --clay-color-badge-primary-ink: var(--clay-palette-yellow-soft-ink);
+}
+
+[data-clay-color="green"] {
+  --clay-color-primary: var(--clay-palette-green-base);
+  --clay-color-primary-hover: var(--clay-palette-green-hover);
+  --clay-color-primary-active: var(--clay-palette-green-active);
+  --clay-color-on-primary: var(--clay-palette-green-on);
+  --clay-color-badge-primary: var(--clay-palette-green-soft);
+  --clay-color-badge-primary-ink: var(--clay-palette-green-soft-ink);
+}
+
+[data-clay-color="teal"] {
+  --clay-color-primary: var(--clay-palette-teal-base);
+  --clay-color-primary-hover: var(--clay-palette-teal-hover);
+  --clay-color-primary-active: var(--clay-palette-teal-active);
+  --clay-color-on-primary: var(--clay-palette-teal-on);
+  --clay-color-badge-primary: var(--clay-palette-teal-soft);
+  --clay-color-badge-primary-ink: var(--clay-palette-teal-soft-ink);
+}
+
+[data-clay-color="blue"] {
+  --clay-color-primary: var(--clay-palette-blue-base);
+  --clay-color-primary-hover: var(--clay-palette-blue-hover);
+  --clay-color-primary-active: var(--clay-palette-blue-active);
+  --clay-color-on-primary: var(--clay-palette-blue-on);
+  --clay-color-badge-primary: var(--clay-palette-blue-soft);
+  --clay-color-badge-primary-ink: var(--clay-palette-blue-soft-ink);
+}
+
+[data-clay-color="pink"] {
+  --clay-color-primary: var(--clay-palette-pink-base);
+  --clay-color-primary-hover: var(--clay-palette-pink-hover);
+  --clay-color-primary-active: var(--clay-palette-pink-active);
+  --clay-color-on-primary: var(--clay-palette-pink-on);
+  --clay-color-badge-primary: var(--clay-palette-pink-soft);
+  --clay-color-badge-primary-ink: var(--clay-palette-pink-soft-ink);
+}
